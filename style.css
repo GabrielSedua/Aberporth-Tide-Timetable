@@ -83,8 +83,8 @@ text-align: center;
 input[type=text] {
   width: 100%;
   box-sizing: border-box;
-  border: 2px solid #142939;
-  border-radius: 4px;
+  border: 2px solid #ccc;
+  border-radius: 2px;
   font-size: 16px;
   background-color: #253851;
   background-image: url('search-icon.webp');

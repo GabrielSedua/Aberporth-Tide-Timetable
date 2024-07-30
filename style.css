@@ -104,12 +104,7 @@ color: white;
 
 
 }
-/* On screens that are 600px wide or less, the background color is olive */
-@media screen and (max-width: 360px) {
-  #list {
-    grid-template-columns: auto;
-  }
-}
+
 /* On screens that are 600px wide or less, the background color is olive */
 @media screen and (max-width: 549px) {
   #list {

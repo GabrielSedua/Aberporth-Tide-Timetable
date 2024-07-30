@@ -2,24 +2,17 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: #39546f;
 
 
 }
-html {
-   
-}
-
 body {
     
-    background-color:#253851;	
+    background-color:#1d3145;	
 }
 
 header{
     background-color:#062135c9;
     padding-bottom: 10px;
-
-color: black;
 opacity: 0.6;
  
 }
@@ -60,11 +53,19 @@ text-align: center;
   margin-right: auto;
 }
 
+#white-text {
+color: white;
+}
+
+#blue-text {
+color: #182e43;
+}
+
 div.transbox {
 margin-top: 10px;
   margin-right: 30px;
 margin-left: 30px;
-  background-color: #39546f;
+  background-color: #182e43;
   border: 2px solid #39546f;
 border-radius: 5px;
   opacity: 0.75;

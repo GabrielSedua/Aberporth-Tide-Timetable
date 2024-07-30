@@ -22,6 +22,10 @@ padding-bottom: 10px;
 
 }
 
+#show_time {
+font-size: 4vw;
+}
+
 .hide{
   display:none;
 }
@@ -104,6 +108,7 @@ color: white;
 
 
 }
+
 
 /* On screens that are 600px wide or less, the background color is olive */
 @media screen and (max-width: 549px) {

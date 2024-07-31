@@ -83,8 +83,7 @@ text-align: center;
 }
 
 #tidewidget {
-
-width: 100%;}
+}
 
 input[type=text] {
   width: 100%;
@@ -134,7 +133,7 @@ color: white;
 /* On screens that are 992px wide or less, the background color is blue */
 @media screen and (min-width: 950px) {
   #list {
-    grid-template-columns: auto auto auto auto ;
+    grid-template-columns: auto auto auto ;
 
 
   }
@@ -143,14 +142,16 @@ color: white;
 /* On screens that are 992px wide or less, the background color is blue */
 @media screen and (min-width: 1200px) {
   #list {
-    grid-template-columns: auto auto auto auto auto;
+    grid-template-columns: auto auto auto auto;
 
 
   }
 }
 
+
+
 /* On screens that are 992px wide or less, the background color is blue */
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 1400px) {
   #list {
     grid-template-columns: auto auto auto auto auto auto;
 

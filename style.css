@@ -84,7 +84,7 @@ text-align: center;
 
 #tidewidget {
 
-min-width: 290px;}
+min-width: 450px;}
 
 input[type=text] {
   width: 100%;
@@ -130,14 +130,7 @@ color: white;
 
   }
 }
-/* On screens that are 992px wide or less, the background color is blue */
-@media screen and (min-width: 950px) {
-  #list {
-    grid-template-columns: auto auto auto;
 
-
-  }
-}
 /* On screens that are 992px wide or less, the background color is blue */
 @media screen and (min-width: 1050px) {
   #list {
@@ -147,16 +140,6 @@ color: white;
   }
 }
 
-
-
-/* On screens that are 992px wide or less, the background color is blue */
-@media screen and (min-width: 1250px) {
-  #list {
-    grid-template-columns: auto auto auto auto auto auto;
-
-
-  }
-}
 
 
 .animals {

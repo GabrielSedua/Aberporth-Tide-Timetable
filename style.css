@@ -66,8 +66,8 @@ color: #182e43;
 
 div.transbox {
 margin-top: 10px;
-  margin-right: 10px;
-margin-left: 10px;
+  margin-right: 15px;
+margin-left: 15px;
   background-color: #182e43;
   border: 2px solid #142a3d;
 border-radius: 5px;
@@ -82,6 +82,9 @@ text-align: center;
 
 }
 
+#tidewidget {
+
+min-width: 290px;}
 
 input[type=text] {
   width: 100%;
@@ -106,6 +109,7 @@ color: white;
     padding: 0;
     margin: 0;
      display: grid;
+
     justify-content: center;
 
 
@@ -115,13 +119,13 @@ color: white;
 /* On screens that are 600px wide or less, the background color is olive */
 @media screen and (max-width: 549px) {
   #list {
-    grid-template-columns: auto auto;
+    grid-template-columns: auto;
   }
 }
 /* On screens that are 992px wide or less, the background color is blue */
 @media screen and (min-width: 550px) {
   #list {
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: auto auto;
 
 
   }
@@ -129,7 +133,7 @@ color: white;
 /* On screens that are 992px wide or less, the background color is blue */
 @media screen and (min-width: 950px) {
   #list {
-    grid-template-columns: auto auto auto auto auto auto;
+    grid-template-columns: auto auto auto;
 
 
   }
@@ -137,7 +141,18 @@ color: white;
 /* On screens that are 992px wide or less, the background color is blue */
 @media screen and (min-width: 1050px) {
   #list {
-    grid-template-columns: auto auto auto auto auto auto auto auto;
+    grid-template-columns: auto auto auto auto;
+
+
+  }
+}
+
+
+
+/* On screens that are 992px wide or less, the background color is blue */
+@media screen and (min-width: 1250px) {
+  #list {
+    grid-template-columns: auto auto auto auto auto auto;
 
 
   }
